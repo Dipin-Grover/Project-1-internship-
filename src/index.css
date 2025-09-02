@@ -87,3 +87,44 @@ p {
 .login-btn:hover {
   background: #e1dfff;
 }
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+label {
+  font-weight: 500;
+  color: #7c3aed;
+  margin-bottom: 4px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #7c3aed;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+button.create-btn[type="submit"] {
+  margin-top: 24px;
+  background: #ded9fa;
+  color: #7c3aed;
+}
