@@ -15,7 +15,7 @@ const Welcome: React.FC = () => {
             <button className="create-btn" onClick={() => navigate('/register')}>
               Create Account
             </button>
-            <button className="login-btn">
+            <button className="login-btn" onClick={() => navigate('/login')}>
               Already Registered? Login
             </button>
           </div>
@@ -24,5 +24,4 @@ const Welcome: React.FC = () => {
     </div>
   );
 };
-
 export default Welcome;

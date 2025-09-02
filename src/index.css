@@ -128,3 +128,22 @@ button.create-btn[type="submit"] {
   background: #ded9fa;
   color: #7c3aed;
 }
+
+
+.login-form-btn {
+  width: 100%;
+  padding: 16px 0;
+  background: #9e97a7;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 16px;
+  transition: background 0.2s;
+}
+.login-form-btn:hover {
+  background: #7a7484;
+}
+
