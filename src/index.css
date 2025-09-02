@@ -210,3 +210,140 @@ button.create-btn[type="submit"] {
 }
 
 
+
+
+/* Profile card specific styles */
+.profile-card {
+  padding: 40px 32px 32px 32px;
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  box-sizing: border-box;
+}
+
+.account-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 0;
+  color: #333;
+}
+
+.account-divider {
+  width: 100%;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 28px;
+}
+
+.account-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+/* Circular profile picture */
+.profile-pic {
+  width: 64px;
+  height: 64px;
+  background: #ded9fa;
+  border-radius: 50%;           /* This makes it circular */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;             /* Ensures content stays within circle */
+  flex-shrink: 0;              /* Prevents the circle from shrinking */
+  margin-right: 8px;
+}
+
+/* If you want to add an actual image inside the circle */
+.profile-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;            /* Ensures image covers the circle properly */
+  border-radius: 50%;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.profile-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: #333;
+}
+
+.profile-email {
+  color: #767676;
+  font-size: 0.95rem;
+  margin-bottom: 12px;
+}
+
+.profile-description {
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #7c3aed;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ded9fa;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #7c3aed;
+  box-shadow: 0 0 0 0.1rem rgba(124, 58, 237, 0.25);
+}
+
+.login-form-btn {
+  width: 100%;
+  padding: 16px 0;
+  background: #9e97a7;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 16px;
+  transition: background 0.2s;
+}
+
+.login-form-btn:hover {
+  background: #7a7484;
+}
+
+/* Show not-allowed cursor when form is invalid */
+.login-form-btn.disabled-cursor {
+  cursor: not-allowed !important;
+}
+
+.login-form-btn.disabled-cursor:hover {
+  background: #9e97a7; /* Keep original color on hover when disabled */
+}
+
+
+
