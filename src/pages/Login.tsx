@@ -1,10 +1,20 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Login: React.FC = () => {
+  const navigate = useNavigate();
+
+  const handleLogin = (e: React.FormEvent) => {
+    e.preventDefault();
+    // Implement authentication logic here
+    // On success:
+    navigate('/account');
+  };
+
   return (
     <div className="welcome-container">
       <div className="welcome-card">
-        <form>
+        <form onSubmit={handleLogin}>
           <h1>Signin to your<br />PopX account</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           <div className="form-group">
@@ -21,4 +31,5 @@ const Login: React.FC = () => {
     </div>
   );
 };
+
 export default Login;
