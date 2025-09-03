@@ -163,19 +163,20 @@ popx-spa/
 
 ---
 
-##  Screenshots  
+## 🖼️ Screenshots  
 
 - **Homepage**  
-  ![Homepage](/screens/home.png)  
+  <img width="400" height="700" alt="Homepage" src="https://github.com/user-attachments/assets/d0a0d45d-f882-444f-a0e2-e4802794547d" />  
 
 - **Registration Form**  
-  ![Registration Form](/screens/register.png)  
+  <img width="400" height="700" alt="Registration" src="https://github.com/user-attachments/assets/158be246-4040-450d-bdcc-b082982fb6a2" />  
 
 - **Login Form**  
-  ![Login Form](/screens/login.png)  
+  <img width="400" height="700" alt="Login" src="https://github.com/user-attachments/assets/b3436465-8171-40ca-85a1-00e07bc95385" />  
 
 - **Profile Page**  
-  ![Profile Page](/screens/profile.png)  
+  <img width="400" height="700" alt="Profile" src="https://github.com/user-attachments/assets/18eaadb6-f805-402d-b78a-efeb08942b39" />  
+
 
 ---
 
