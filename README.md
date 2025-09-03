@@ -1,28 +1,25 @@
-# 🚀 PopX Account SPA
+#  PopX 
 
-A **pixel-perfect, mobile-first Single Page Application (SPA)** for user registration, login, and profile display.  
+A single page application for user registration, login, and profile display.  
 Built with **React**, **TypeScript**, and **Vite** — deployable as a fully static site on Vercel.
 
 <p align="center">
   <img alt="React" src="https://img.shields.io/badge/React-18+-blue?logo=react" />
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript" />
   <img alt="Vite" src="https://img.shields.io/badge/Vite-5.x-646CFF?logo=vite" />
-  <img alt="License" src="https://img.shields.io/badge/License-MIT-green" />
 </p>
 
 ---
 
-## ✨ Features
+##  Features
 
-- 📱 **Responsive Design** – Centered, mobile‑first UI with no horizontal scroll on phones
-- 📝 **Modern Forms** – Clean inputs using semantic `<fieldset>` & `<legend>`
-- 📞 **Validation** – Enforces **10‑digit phone number**
-- ⏭️ **Skip Interaction** – Disabled buttons reveal a **skip icon** on hover
-- ☁️ **One‑Click Hosting** – Ready for **Vercel**
+-  **Responsive Design** – Centered, mobile‑first UI with no horizontal scroll on phones
+-  **Modern Forms** – Clean inputs using semantic `<fieldset>` & `<legend>`
+-  **Validation** – Enforces **10‑digit phone number**
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 - **React 18**, **TypeScript**
 - **Vite** dev server & build
@@ -31,7 +28,7 @@ Built with **React**, **TypeScript**, and **Vite** — deployable as a fully sta
 
 ---
 
-## 🛠️ Getting Started
+##  Getting Started
 
 ### Prerequisites
 - **Node.js** v16 or newer
@@ -99,7 +96,7 @@ popx-spa/
 
 ---
 
-## 🔑 Usage
+##  Usage
 
 - **Register** at `/register`  
   - Fill all fields; phone must be **exactly 10 digits**  
@@ -114,7 +111,7 @@ popx-spa/
 
 ---
 
-## 🎯 Validation Details
+##  Validation Details
 
 - **Phone number**: `^[0-9]{10}$` (exactly 10 digits)  
 - **Email**: HTML email input or regex like `/^[^\s@]+@[^\s@]+\.[^\s@]+$/`  
@@ -122,7 +119,7 @@ popx-spa/
 
 ---
 
-## 🎨 Responsive Design
+##  Responsive Design
 
 - Mobile‑first layout sized for small screens, centered on all viewports
 - No horizontal scrolling on handheld devices
@@ -130,7 +127,7 @@ popx-spa/
 
 ---
 
-## 🌐 Deployment (Vercel)
+##  Deployment (Vercel)
 
 1. Ensure `index.html` has the viewport meta:
    ```html
@@ -152,7 +149,7 @@ popx-spa/
 
 ---
 
-## 🧪 Scripts
+##  Scripts
 
 ```jsonc
 {
@@ -166,15 +163,19 @@ popx-spa/
 
 ---
 
-## 🖼️ Screenshots
+##  Screenshots  
 
-Add images for:
-- Registration form
-- Login form
-- Profile page
-- Mobile layout
+- **Homepage**  
+  ![Homepage](/screens/home.png)  
 
-You can keep them in `/public/screens/` and reference them in this README.
+- **Registration Form**  
+  ![Registration Form](/screens/register.png)  
+
+- **Login Form**  
+  ![Login Form](/screens/login.png)  
+
+- **Profile Page**  
+  ![Profile Page](/screens/profile.png)  
 
 ---
 
