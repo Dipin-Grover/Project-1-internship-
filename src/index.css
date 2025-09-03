@@ -14,17 +14,17 @@ body {
   background: #212a3a;
 }
 
-/* White box with NO border radius and full vertical stretch */
+
 .welcome-card {
   background: #f8f8fc;
   box-shadow: 0 8px 24px rgba(44, 44, 62, 0.12);
   width: 400px;
-  height: 100vh;    /* Stretch full viewport height */
+  height: 100vh;    
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   padding: 0 32px 32px 32px;
-  border-radius: 0; /* No rounded corners */
+  border-radius: 0; 
   box-sizing: border-box;
 }
 
@@ -209,10 +209,6 @@ button.create-btn[type="submit"] {
   font-size: 1rem;
 }
 
-
-
-
-/* Profile card specific styles */
 .profile-card {
   padding: 40px 32px 32px 32px;
   min-height: 480px;
@@ -244,25 +240,25 @@ button.create-btn[type="submit"] {
   gap: 24px;
 }
 
-/* Circular profile picture */
+
 .profile-pic {
   width: 64px;
   height: 64px;
   background: #ded9fa;
-  border-radius: 50%;           /* This makes it circular */
+  border-radius: 50%;           
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;             /* Ensures content stays within circle */
-  flex-shrink: 0;              /* Prevents the circle from shrinking */
+  overflow: hidden;            
+  flex-shrink: 0;              
   margin-right: 8px;
 }
 
-/* If you want to add an actual image inside the circle */
+
 .profile-pic img {
   width: 100%;
   height: 100%;
-  object-fit: cover;            /* Ensures image covers the circle properly */
+  object-fit: cover;            
   border-radius: 50%;
 }
 
@@ -336,14 +332,109 @@ button.create-btn[type="submit"] {
   background: #7a7484;
 }
 
-/* Show not-allowed cursor when form is invalid */
+
 .login-form-btn.disabled-cursor {
   cursor: not-allowed !important;
 }
 
 .login-form-btn.disabled-cursor:hover {
-  background: #9e97a7; /* Keep original color on hover when disabled */
+  background: #9e97a7; 
 }
 
 
 
+.agency-inline {
+  display: flex;
+  align-items: center;
+  gap: 24px;        
+  margin-bottom: 20px;
+}
+
+.agency-label {
+  margin-right: 10px;
+  color: #7c3aed;   
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.agency-inline label {
+  margin: 0 8px 0 0;
+  color: #211d4d;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+
+.form-group {
+  margin-bottom: 10px;  
+}
+
+.form-group input {
+  padding: 8px 12px;    
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 1 0;
+}
+
+form > .create-btn {
+  margin-top: auto;
+}
+
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 1;
+}
+
+.fields {
+  flex: none;
+}
+
+.create-btn {
+  margin-top: auto;     
+  width: 100%;
+  padding: 16px 0;
+}
+
+
+
+.form-fieldset {
+  border: 1px solid #ded9fa;
+  border-radius: 8px;                  
+  padding: 5px 8px;                   
+  margin-bottom: 8px;                  
+  background: #f7f7fc;
+  position: relative;
+}
+
+.form-fieldset:focus-within {
+  border-color: #7c3aed;
+}
+
+.form-legend {
+  color: #7c3aed;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 0 2px;
+  background: #f7f7fc;
+  line-height: 1;
+}
+
+.form-fieldset input {
+  width: 100%;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 0.98rem;
+  color: #222;
+  margin-top: 0;
+  padding: 2px 0;                      
+  line-height: 1.2;
+}
