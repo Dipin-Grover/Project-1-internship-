@@ -19,9 +19,10 @@ Built with **React**, **TypeScript**, and **Vite** — deployable as a fully sta
 
 ---
 
-## 🚀 Live Demo  
+##  Live Demo  
 
 🔗 **Deployed on Vercel:** [https://project-1-popxv5.vercel.app/](https://project-1-popxv5.vercel.app/)  
+ 
  
 ---
 
