@@ -438,3 +438,41 @@ form > .create-btn {
   padding: 2px 0;                      
   line-height: 1.2;
 }
+
+
+
+
+
+.create-btn {
+  position: relative;
+  cursor: pointer;
+  /* Add your existing button styles here (background, padding, font, etc.) */
+}
+
+.create-btn:disabled {
+  cursor: not-allowed;
+  background-color: #ccc; /* Disabled background */
+  /* Add other disabled styles if needed */
+}
+
+/* Skip icon, hidden by default */
+.create-btn .skip-icon {
+  display: none;
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;              /* Use 20px or 16px as you prefer */
+  height: 20px;
+  background-image: url('/path/to/skip-icon.svg'); /* Replace with your skip icon path */
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+/* Show skip icon only when button is disabled AND hovered */
+.create-btn:disabled:hover .skip-icon {
+  display: inline-block;
+}
+
+
