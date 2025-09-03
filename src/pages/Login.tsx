@@ -36,27 +36,29 @@ const Login: React.FC = () => {
           <h1>Signin to your<br />PopX account</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           
-          <div className="form-group">
-            <label>Email</label>
+          <fieldset className="form-fieldset">
+            <legend className="form-legend">Email Address</legend>
             <input 
               type="email" 
               name="email"
               value={formData.email}
               onChange={handleChange}
               placeholder="Enter email address"
+              required
             />
-          </div>
+          </fieldset>
           
-          <div className="form-group">
-            <label>Password</label>
+          <fieldset className="form-fieldset">
+            <legend className="form-legend">Password</legend>
             <input 
               type="password" 
               name="password"
               value={formData.password}
               onChange={handleChange}
               placeholder="Enter password"
+              required
             />
-          </div>
+          </fieldset>
           
           <button 
             className={`login-form-btn ${!isFormValid ? 'disabled-cursor' : ''}`}
