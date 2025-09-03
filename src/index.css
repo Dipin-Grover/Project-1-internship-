@@ -576,6 +576,24 @@ form > .create-btn {
 
 
 
+.agency-block {
+  display: flex;
+  flex-direction: column;  /* Stack label and options vertically */
+  gap: 4px;
+}
+
+.agency-label {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.agency-options {
+  display: flex;
+  gap: 28px;     /* enough space between Yes/No */
+  margin-top: 3px;
+}
+
+
 
 
 
