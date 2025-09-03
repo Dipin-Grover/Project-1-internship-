@@ -451,29 +451,155 @@ form > .create-btn {
 
 .create-btn:disabled {
   cursor: not-allowed;
-  background-color: #ccc; /* Disabled background */
-  /* Add other disabled styles if needed */
+  background-color: #ccc; 
+
 }
 
-/* Skip icon, hidden by default */
+
 .create-btn .skip-icon {
   display: none;
   position: absolute;
   right: 16px;
   top: 50%;
   transform: translateY(-50%);
-  width: 20px;              /* Use 20px or 16px as you prefer */
+  width: 20px;             
   height: 20px;
-  background-image: url('/path/to/skip-icon.svg'); /* Replace with your skip icon path */
+  background-image: url('/path/to/skip-icon.svg'); 
   background-repeat: no-repeat;
   background-size: contain;
   cursor: pointer;
 }
 
-/* Show skip icon only when button is disabled AND hovered */
+
 .create-btn:disabled:hover .skip-icon {
   display: inline-block;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.profile-main {
+  display: flex;
+  align-items: center;
+  gap: 18px; /* spacing between image and info */
+}
+
+.profile-pic img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #dedede;
+  border: 2px solid #fff;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-name {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.profile-email {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 2px;
+}
+
+
+
+
+
+
+
+
+
+.profile-pic img {
+  margin-bottom: 12px; /* Adds space below the image */
+}
+
+.profile-description {
+  margin-top: 20px; /* Adds space above the description */
+  line-height: 1.5;
+  font-size: 1.13rem;
+  color: #474747;
+}
+
+
+.profile-divider {
+  border: none;
+  border-top: 1.5px dotted #ababad;
+  width: 100%;          /* Make line full width */
+  margin: 20px 0 0 0;   /* Remove horizontal margin */
+}
+
+
+
+
+.form-card, .welcome-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 60vh;    /* or 100% for full height */
+}
+
+.create-account-btn {
+  margin-top: auto;
+  width: 100%;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -25,7 +25,8 @@ const Register: React.FC = () => {
   return (
     <div className="welcome-container">
       <div className="welcome-card">
-        <form onSubmit={handleSubmit}>
+        {/* Make form a flex column */}
+        <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', minHeight: '60vh' }}>
           <h1>Create your<br />PopX account</h1>
 
           <fieldset className="form-fieldset">
@@ -99,6 +100,8 @@ const Register: React.FC = () => {
             </label>
           </div>
 
+          {/* Spacer div pushes button to bottom */}
+          <div style={{ flexGrow: 1 }}></div>
           <button className="create-btn" type="submit" disabled={!isValid}>
             Create Account
             <span className="skip-icon" aria-hidden="true"></span>
