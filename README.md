@@ -19,6 +19,11 @@ Built with **React**, **TypeScript**, and **Vite** — deployable as a fully sta
 
 ---
 
+## 🚀 Live Demo  
+
+🔗 **Deployed on Vercel:** [https://project-1-popxv3.vercel.app/](https://project-1-popxv3.vercel.app/)  
+---
+
 ##  Tech Stack
 
 - **React 18**, **TypeScript**
@@ -163,7 +168,7 @@ popx-spa/
 
 ---
 
-## 🖼️ Screenshots  
+## Screenshots  
 
 - **Homepage**  
   <img width="400" height="700" alt="Homepage" src="https://github.com/user-attachments/assets/d0a0d45d-f882-444f-a0e2-e4802794547d" />  
